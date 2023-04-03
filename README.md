@@ -1,4 +1,4 @@
-#Motion Detection in Video using FFT
+# Motion Detection in Video using FFT
 
 This is a MATLAB script that detects motion in a video by computing the Fast Fourier Transform (FFT) of the pixel intensities over time. The algorithm detects the light of a strobe flashlight in a bright room by identifying the presence of a specific frequency of interest in the spectrum of the pixel intensities.
 
