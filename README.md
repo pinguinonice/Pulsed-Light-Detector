@@ -2,7 +2,7 @@
 
 This is a MATLAB script that detects motion in a video by computing the Fast Fourier Transform (FFT) of the pixel intensities over time. The algorithm detects the light of a strobe flashlight in a bright room by identifying the presence of a specific frequency of interest in the spectrum of the pixel intensities.
 
-<img src="raw.gif " alt="raw" style="width: 200pix;"/><img src="detection.gif" alt="detection" style="width: 200pix;"/>
+<img src="raw.gif" alt="raw" style="width: 200pix;"/><img src="detection.gif" alt="detection" style="width: 200pix;"/>
 
 ### How it Works
 The script loads a video file and loops over the video frames in windows of a specified size and step. For each window, it downscales the frames by a specified factor, converts them to grayscale, and computes the FFT of the pixel intensities over time.
@@ -25,7 +25,7 @@ Here are two examples of motion detection using this script. The first shows the
 Raw Video and Motion Detection
 
 
-<img src="raw.gif " alt="raw" style="width: 200pix;"/>
+<img src="raw.gif" alt="raw" style="width: 200pix;"/>
 
 <img src="detection.gif" alt="detection" style="width: 200pix;"/>
 
